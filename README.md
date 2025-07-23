@@ -2,6 +2,11 @@
 
 This repository contains the C++ implementation of v5 of the assembly algorithm
 
+https://arxiv.org/abs/2410.09100#
+
+Authors Ian Seet, Leroy Cronin
+
+School of Chemistry, The University of Glasgow, University Avenue, Glasgow G12 8QQ, United Kingdom
 
 ## Installation and usage
 To generate documentation, ensure doxygen is installed and run `doxygen Doxyfile` from the root. Documentation can then be accessed at `docs/html/index.html`
