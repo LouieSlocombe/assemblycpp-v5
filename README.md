@@ -2,11 +2,12 @@
 
 https://arxiv.org/abs/2410.09100#
 
+This repository contains the C++ implementation of v5 of the assembly algorithm, in a "script" style version
+
 School of Chemistry, The University of Glasgow, University Avenue, Glasgow G12 8QQ, United Kingdom
 
 Authors Ian Seet, Leroy Cronin
 
-This repository contains the C++ implementation of v5 of the assembly algorithm, in a "script" style version
 
 This script branch must be compiled directly from the v5/main.cpp file with the Boost Graph Library (version 1.8 or greater should be sufficient)
 
