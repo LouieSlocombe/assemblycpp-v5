@@ -1,0 +1,8 @@
+[PASS] molfiles/brucine: Correct assembly index 14
+[PASS] molfiles/cefiderocol: Correct assembly index 30
+[PASS] molfiles/clarithromycin: Correct assembly index 21
+[PASS] molfiles/erythromycin: Correct assembly index 20
+[PASS] molfiles/iodotaxol: Correct assembly index 20
+[PASS] molfiles/YFWHP: Correct assembly index 22
+
+Total time to completion: 66297436

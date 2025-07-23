@@ -1,0 +1,57 @@
+# === Test logs etc
+integration_failures.txt
+integration_timings.txt
+integration_timings.csv
+
+# === Build artifacts ===
+/build/
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# === Test Executable ===
+/tests/assembly
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === VS Code ===
+.vscode/
+*.code-workspace
+
+# === Logs and debugging ===
+*.log
+*.dSYM/
+*.stackdump
+*.core
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === Windows/WSL Zone.Identifier (file downloaded flag) ===
+*.Zone.Identifier
+
+# === Swap/temp/backup files ===
+*~
+*.swp
+*.tmp
+*.bak
+
+# === Other Stuff ===
+iwyu_report.txt
+run_iwyu.sh
+
+# === doxygen output ===
+/docs/html/
+/docs/latex/

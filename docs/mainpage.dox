@@ -1,0 +1,21 @@
+/**
+* @mainpage AssemblyCPP documentation
+*
+* @section overview Overview
+* AssemblyCPP computes the assembly index of an input molecule, using the process described in detail at (https://arxiv.org/abs/2410.09100). 
+*
+* @section usage Usage
+* To build and run using cmake, ensure that cmake is installed and run the following commands from the root of the repo
+* @code
+* cmake -S . -B build
+* cmake --build build
+* @endcode
+* This will create an executable called assembly in the build/bin folder (possibly in Debug/Release subfolders for MSVC). 
+* The compilation should be in release mode by default.
+* To run, for example on the mol file aspirin.mol (note the .mol file type is ommitted):
+* @code
+* ./assembly aspirin
+* @endcode
+* The assembly index is output to stdout and to the file `aspirinOut`. Full pathway details are output to the file `aspirinPathway`. If terminated with Ctrl-C, 
+the program will output the best assembly index found so far, provided the enumeration process is complete.
+*/
